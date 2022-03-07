@@ -6,7 +6,7 @@ jobs:
   ci-cd:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579 # tag=v2
       - uses: ctison/actions/conftest@master
       - uses: ctison/actions/kustomize@master
       - uses: ctison/actions/k3d@master
